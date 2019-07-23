@@ -1,0 +1,43 @@
+{
+    "name": "sundayit/chatframe",
+    "description": "Sunday IT's Chat frame package",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Balint MOLNAR",
+            "email": "molnar.balint@mdy.hu",
+            "homepage": "https://sundayit.hu"
+        }
+    ],
+    "homepage": "https://github.com/sundayit/chatframe",
+    "keywords": ["Laravel", "chatframe"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SundayIT\\chatframe\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SundayIT\\chatframe\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SundayIT\\chatframe\\chatframeServiceProvider"
+            ],
+            "aliases": {
+                "chatframe": "SundayIT\\chatframe\\Facades\\chatframe"
+            }
+        }
+    }
+}
