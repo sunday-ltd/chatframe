@@ -14,7 +14,7 @@
 </head>
 <body>
 <!-- jQuery is requested. -->
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script>
     /**
      * This script is custom development by Sunday Ltd.
@@ -85,7 +85,7 @@
     }
 </script>
 <!-- Preferred: use CDN -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js" integrity="sha256-Uv9BNBucvCPipKQ2NS9wYpJmi8DTOEfTA/nH2aoJALw=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/sunday-ltd/web-widget@1.1/build/js/chat.js" integrity="sha256-Mz704uvu2oITcRNNMBSkgLVko4z+n8cbFN7PzQ/sCOY=" crossorigin="anonymous"></script>
 <!-- Also an option: use local -->
 {{--<script src="{{asset("sundayit/chatframe/chatframe/chat.js")}}"></script>--}}
 </body>
