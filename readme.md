@@ -1,8 +1,10 @@
 ![](https://sundayit.hu/img/logo.png) 
 # Sunday Chatframe
-This package builds upon SundayIT's fork of the Botman web-widget:
-Fork: [molbal/web-widget](https://github.com/molbal/web-widget)
-Original:[botman/web-widget](https://github.com/botman/web-widget)
+This package builds upon Sunday's fork of the Botman web-widget:
+
+* Fork: [sunday-ltd/web-widget](https://github.com/sunday-ltd/web-widget)
+* Original: [botman/web-widget](https://github.com/botman/web-widget)
+
 
 ## Usage - **Backend Blade**
 ![](https://img.icons8.com/cotton/64/000000/server.png) 
@@ -30,7 +32,7 @@ $ composer require sundayit/chatframe
 ### 4. Run command (Optional)
 If you want to locally host the chatframe's JS and CSS files instead of using the CDN, run the following command
 ``` bash
-$ php artisan vendor:publish --provider="SundayIT\chatframe\chatframeServiceProvider"
+$ php artisan vendor:publish --provider="SundayIT\chatframe\chatframeServiceProvider" --force
 ```
 Which will place the necessary JS and CSS files. In this case, open `packages/sundayit/chatframe/views/chat/chatframe.blade.php` and uncommment the local resources, and remove the CDN links. 
 
