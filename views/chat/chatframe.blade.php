@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 
 	<!-- Preferred: use CDN -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sunday-ltd/web-widget@1.2.0.1/build/assets/css/chat.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sunday-ltd/web-widget@1.2.0.2/build/assets/css/chat.min.css">
 	<!-- Also an option: use local -->
 	{{--<link rel="stylesheet" type="text/css" href="{{asset("sundayit/chatframe/chatframe/chat.css")}}">--}}
 
@@ -85,7 +85,7 @@
     }
 </script>
 <!-- Preferred: use CDN -->
-<script src="https://cdn.jsdelivr.net/gh/sunday-ltd/web-widget@1.2.0.1/build/js/chat.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/sunday-ltd/web-widget@1.2.0.2/build/js/chat.js" crossorigin="anonymous"></script>
 <!-- Also an option: use local -->
 {{--<script src="{{asset("sundayit/chatframe/chatframe/chat.js")}}"></script>--}}
 </body>
