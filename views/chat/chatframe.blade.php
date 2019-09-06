@@ -85,7 +85,7 @@
     }
 </script>
 <!-- Preferred: use CDN -->
-<script src="https://cdn.jsdelivr.net/gh/sunday-ltd/web-widget@1.2.0.1/build/js/chat.js" integrity="sha256-Mz704uvu2oITcRNNMBSkgLVko4z+n8cbFN7PzQ/sCOY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/sunday-ltd/web-widget@1.2.0.1/build/js/chat.js" crossorigin="anonymous"></script>
 <!-- Also an option: use local -->
 {{--<script src="{{asset("sundayit/chatframe/chatframe/chat.js")}}"></script>--}}
 </body>
