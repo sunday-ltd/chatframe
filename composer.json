@@ -1,7 +1,7 @@
 {
     "name": "sundayit/chatframe",
     "description": "Sunday IT's Chat frame package",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Balint MOLNAR",
@@ -9,8 +9,8 @@
             "homepage": "https://sundayit.hu"
         }
     ],
-    "homepage": "https://github.com/sundayit/chatframe",
-    "keywords": ["Laravel", "chatframe"],
+    "homepage": "https://sundayit.hu/chatbots",
+    "keywords": ["Laravel", "chatbot", "botman", "chatframe"],
     "require": {
         "illuminate/support": ">=5"
     },
@@ -39,5 +39,9 @@
                 "chatframe": "SundayIT\\chatframe\\Facades\\chatframe"
             }
         }
+    },
+    "readme": "readme.md",
+    "support": {
+        "email": "helpdesk@sundayit.hu"
     }
 }
