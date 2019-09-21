@@ -9,27 +9,12 @@ This package builds upon Sunday's fork of the Botman web-widget:
 ## Usage - **Backend Blade**
 ![](https://img.icons8.com/cotton/64/000000/server.png) 
 ### 1. Install this package, if you don't have it yet to composer:
+
 ```bash
-$ composer global require aheenam/laravel-package-cli
-```
-
-### 2. Add this to **composer.json**
-```json
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/sunday-ltd/chatframe"
-        }
-    ],
-    
-```
-
-### 3. Install package
-``` bash
 $ composer require sundayit/chatframe
 ```
 
-### 4. Run command (Optional)
+### 2. Run command (Optional)
 If you want to locally host the chatframe's JS and CSS files instead of using the CDN, run the following command
 ``` bash
 $ php artisan vendor:publish --provider="SundayIT\chatframe\chatframeServiceProvider" --force
